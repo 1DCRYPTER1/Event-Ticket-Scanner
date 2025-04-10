@@ -1,0 +1,41 @@
+  //Return the View
+//   return (
+//     <View style={styles.container}>
+//       <View style={styles.barcodebox}>
+
+//       <BarCodeScanner 
+//       onBarCodeScanned={scanned ? undefined : handleBarCodeScanned}
+//       style={{ height: 550, width: 400 }}/>
+//       </View>
+//       <Text style={styles.maintext}>{text}</Text>
+
+//       {scanned && <Button title={'Scan again?'} onPress={() => setScanned(false)} color='#cd6600' />}
+//     </View>
+//   );
+// }
+
+// const styles = StyleSheet.create({
+//   container: {
+//     flex: 1,
+//     backgroundColor: '#f3d88d',
+//     alignItems: 'center',
+//     justifyContent: 'center',
+//   },
+
+//   barcodebox: {
+//     alignItems: 'center',
+//     justifyContent: 'center',
+//     height: 300,
+//     width: 300,
+//     overflow: 'hidden',
+//     borderRadius: 30,
+//     backgroundColor: 'tomato'
+//   },
+
+//   maintext: {
+//     fontSize: 16,
+//     margin: 20,
+//   },
+
+
+// });
